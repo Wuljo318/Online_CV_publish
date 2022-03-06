@@ -1,0 +1,212 @@
+body{
+    background-color: #000000;
+    opacity: 1;
+    background-image:  radial-gradient(#f74545 2px, transparent 2px), radial-gradient(#f74545 2px, #000000 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px; 
+    background-attachment: fixed;
+}
+
+.gumb{
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-bottom: 0.5%;
+    font-size: 1.375em;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    text-align: center;
+    border: #00000000;
+}
+
+
+#navigation{
+    background-color: rgba(199, 21, 21, 0.452);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 1s;
+    text-align: center;
+    z-index: 10;
+}
+
+#home{
+    width: 2%;
+    margin-right: 34%;
+}
+
+#linkedin{
+    margin-top: 0.5%;
+    margin-left: 34%;
+    width: 2%;
+}
+
+#slika1{
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    border-radius: 100%;
+}
+
+#prvi_paragraf{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-size: 3.125em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#drugi_paragraf{
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-size: 1.875em;
+    font-family: Arial;
+    color: white;
+}
+
+#treci_paragraf{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.375em;
+    font-family: sans-serif;
+    color: white;
+    line-height: 30pt;
+}
+
+#cetvrti_paragraf{
+    background-color: rgba(26, 25, 25, 0.856);
+    text-align: center;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#slika2{
+    width: 20%;
+    margin-left: 8%;
+    margin-right: 1%;
+}
+
+#slika3{
+    width: 22%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#slika4{
+    width: 26%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#peti_paragraf{
+    background-color: rgba(199, 21, 21, 0.534);
+    text-align: center;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
+    padding-left: 15%;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.projekti{
+    margin-left: 14%;
+}
+
+#aplikacija{
+    /*margin-left: ;*/
+    margin-right: 15%;
+    float: left;
+    width: 10%;
+    overflow: auto;
+    position: relative;
+    opacity: 80%;
+    z-index: 1;
+}
+
+#aplikacija:hover{
+    opacity: 100%;
+    transform: scale(2.5);
+    z-index: 2;
+}
+
+#projekti{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 0.6em;
+    font-family: sans-serif;
+    color: white;
+    line-height: 30pt;
+}
+
+#sesti_paragraf{   
+    background-color: rgba(26, 25, 25, 0.856);
+    text-align: center;
+    font-size: 2.5em;
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#slika5{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#slika6{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#slika7{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.slika{
+    position: relative;
+    opacity: 80%;
+    z-index: 1;
+}
+
+.slika:hover{
+    opacity: 100%;
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+#sedmi_paragraf{
+    background-color: rgba(199, 21, 21, 0.534);
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+    font-family: sans-serif;
+}
+
+#email{
+    padding-left: 30%;
+    float: left;
+}
+
+#mobitel{
+    padding-right: 30%;
+    float: right;
+}

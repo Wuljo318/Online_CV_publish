@@ -19,7 +19,6 @@ body{
     border: #00000000;
 }
 
-
 #navigation{
     background-color: rgba(199, 21, 21, 0.452);
     position: fixed;
@@ -100,6 +99,7 @@ body{
     margin-left: 1%;
     margin-right: 1%;
 }
+
 #slika4{
     width: 26%;
     margin-left: 1%;
@@ -123,7 +123,6 @@ body{
 }
 
 #aplikacija{
-    /*margin-left: ;*/
     margin-right: 15%;
     float: left;
     width: 10%;
